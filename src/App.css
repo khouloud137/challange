@@ -1,38 +1,162 @@
 .App {
-  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  color: #787878;
+  background: #fcfbfb;
+  overflow-x: hidden;
+  background-color: #e9ecef;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Menu {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.btn {
+  all: unset;
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 25px;
+  color: black;
+  border-radius: 10px;
+}
+.Bottons-list {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  padding-top: 20px;
+}
+.btn span {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.btn img {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #127384;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Menu h1 {
+  font-weight: 900;
+  font-size: 36px;
+  color: #111111;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icones i {
+  color: #ff9307;
+  font-size: 14px;
+}
+.icones span {
+  font-weight: 500;
+  color: #737373;
+  margin: 0 0 0 8px;
+}
+hr {
+  width: 380px;
+  margin-left: 10px;
+}
+.parts01 {
+  display: flex;
+  gap: 10px;
+}
+.parts02 {
+  display: flex;
+  gap: 10px;
+}
+.parts03 {
+  display: flex;
+  gap: 10px;
+}
+.parts04 {
+  display: flex;
+  gap: 10px;
+}
+.parts05 {
+  display: flex;
+  gap: 10px;
+}
+.parts06 {
+  display: flex;
+  gap: 10px;
+}
+.liste {
+  display: flex;
+  gap: 60px;
+  padding-left: 30px;
+}
+.listes {
+  display: flex;
+  gap: 60px;
+  padding-left: 30px;
+}
+.carsCard {
+  border: 1px solid black;
+  width: 420px;
+  height: 660px;
+  background-color: white;
+  border-radius: 30px;
+}
+.Car_Image {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateZ(0);
+  transition: all 2000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+  vertical-align: middle;
+}
+.carsList {
+  padding: 30px;
+}
+.CarsName {
+  font-weight: 600;
+  color: #201f1d;
+  font-size: 20px;
+  padding: 20px;
+}
+.icones {
+  padding: 10px;
+}
+.locationDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #f2f7f6;
+  padding: 8px;
+  margin: 15px 15px;
+}
+.Pays {
+  display: flex;
+  gap: 20px;
+}
+.btn-fixed {
+  background-color: #201f1d;
+  position: relative;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+/* .Car_Image:hover { */
+/* transform: scale(1.1); */
+/* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); */
+/* } */
+.carsList {
+  display: flex;
 }

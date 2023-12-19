@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BottonsList from './component/BottonsList';
+import CarsList from './component/CarsList';
 
 function App() {
+  let desc =
+    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BottonsList
+      description ={desc}
+      
+      />
+
+      <CarsList/>
     </div>
   );
 }
